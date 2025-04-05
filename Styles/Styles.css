@@ -1,0 +1,801 @@
+*{
+    padding: 0%;
+}
+.banner{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    padding: 0 10vh;
+    width: 100%;
+
+}
+.Logo{
+    
+    width: 10%;
+}
+
+.btn-banner{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+ 
+    
+}
+
+header{
+    display: flex;
+    background:url(/images/headerBg.png);
+   color: white;
+   justify-content:space-between;
+   padding: 20vh;
+   height: 70vh;
+   gap: 10vh;
+}
+
+.Textheader{
+    margin-top: 15vh;
+    text-align:start;
+}
+.forlin{
+    border-top: 2px solid;
+   margin-top: 5px;
+}
+.btn-Download{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding: 1%;
+}
+.form {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(240, 240, 240);
+    height: 40vh;
+    margin-top: 10vh;
+    width: 40vh;
+    gap: 5vh;
+}
+.form {
+    gap: 2vh;
+}
+.form h2 {
+    color: black;
+}
+
+.line {
+    border-top: 1px solid rgb(196, 196, 197); 
+    margin-top: -4vh;
+    width: 80%; 
+    align-self: center; 
+}
+
+
+.formgray{
+    background-color: rgb(245, 245, 245);
+    margin-top: 0%;
+}
+.orange{
+    color: rgb(255, 139,  56);
+}
+
+.btn-form{
+    background-color: rgb(255, 155, 81);
+    padding: 2vh;
+    color:white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 30vh;
+    gap: 2vh;
+}
+.imgsocial{
+    height: 5vh;
+}
+
+.tabs{
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+   background-color: rgb(245, 245, 245);
+   gap: 10vh;
+   padding: 25vh;   
+}
+p{
+    color:  rgb(196, 196, 197);
+}
+.btn-naranja{
+    background-color: rgb(255, 139, 56);
+    border: none;
+    color: white;
+    padding: 1vh;
+}
+
+
+.carousel {
+    width: 60vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 2px;
+    
+  }
+  
+  #carousel1, #carousel2, #carousel3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+ 
+  #carousel1 {
+    background-color: rgb(255, 139, 56);
+    color: white;
+  }
+  
+  
+  #carousel2 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+   
+  }
+  
+
+  #carousel3 {
+    background-color:rgb(51, 51, 51);
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .sub{
+    display: flex;
+    padding: 25vh;
+    align-items: center;
+    color:rgb(196, 196, 197);
+    gap: 10vh;
+  }
+ 
+ .line1{
+  margin-top: 0px; 
+  margin-bottom: 5px; 
+  border-bottom: 3px solid rgb(255, 139, 56);
+}
+ .sub h2,h3{
+    color: black;
+ }
+ .title{
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+ }
+
+  .imgicon{
+    height: 5vh;
+  }
+ .imgsub{
+    height: 40vh;
+ }
+
+ .standard{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    justify-content: center;
+    color:black;
+    padding: 25vh;
+    gap: 10vh;
+ }
+ 
+.whyIcon{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 25vh;
+ 
+}
+ .whyIcon p{
+    color: rgb(196, 196, 197);
+    text-align: center; 
+ }
+ .whyIcon h1{
+    text-align: center; 
+    
+ }
+ .iconoscolumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh; 
+    gap: 10%;
+ }
+
+ .conticonos{
+    align-items: center;
+    text-align: center;
+  }
+ 
+
+ .imagen1, .imagen2, .imagen3{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.targetas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 10vh;
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    gap: 5vh;
+}
+
+.line4 {
+    margin-top: 0px; 
+    margin-bottom: 5px; 
+    border-bottom: 3px solid white;
+}
+
+.press {
+    background-color: rgb(51, 51, 51);
+    color: rgb(173, 173, 173);
+    height: 25vh;
+    width: 40vh;
+    padding: 20px; 
+}
+
+.white {
+    background-color: white;
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.line2 {
+    border-top: 5px solid rgb(255, 139, 56);
+    margin-top: 0vh;
+}
+
+.line0 {
+    border-top: 1px solid rgb(173, 173, 173);
+    margin-top: 1px;
+}
+
+.targetas h3 {
+    color: rgb(173, 173, 173);
+}
+
+.orangrlin {
+    border-top: 2px solid rgb(255, 139, 56);
+    background-color: rgb(255, 139, 56);
+    color: white;
+    padding: 10px; 
+}
+
+.num {
+    font-size: 100px;
+    color: white;
+}
+
+.textnum {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.titulowhat{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.what {
+    align-items: center;
+    text-align: center;
+    padding: 25vh;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    gap: 10vh;
+}
+
+.buble{
+    background:url(/images/textBubble.png);
+    text-align: justify;
+    justify-content: space-between;
+    width: 25vh;
+    height: 12vh;
+    padding: 2vh;
+    color:  rgb(196, 196, 197);
+}
+p{
+    color:  rgb(196, 196, 197);
+}
+
+
+.circle{
+    border-radius: 50%;
+    border-color: black;
+    height: 10vh;
+   
+}
+
+.styles{
+    display: flex;
+    background:url(/images/bg2.png); 
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.styles h1{
+    color: white;
+}
+.ax{
+  border-bottom: 3px solid white;
+}
+.conctact{ 
+    align-items: center;
+    text-align: center;
+    padding: 25vh;
+
+}
+.conct{
+    padding: 5vh;
+    display: flex;
+    gap: 10vh;
+    text-align: justify;
+}
+label{color: rgb(196, 196, 197);
+}
+.line5{
+    border-top: 1px solid rgb(196, 196, 197);
+    margin-top: 3px;
+    width: 50vh;
+    padding: 2vh;
+}
+
+footer{
+    background-color: black;
+    padding: 2vh;
+    text-align: center;
+}
+@media (min-width: 352px) and (max-width: 480px) {
+   .banner{
+    padding: 0%;
+   }
+   .btn-banner{
+    padding: 4px;
+   }
+   
+    header{
+        justify-content: center;
+        align-items: center;}
+.Textheader img{
+    width: 10vh;
+}
+.Textheader {
+font-size: 10px;}
+   .form{
+    font-size: 5px;
+   }
+   .social{
+    padding: 0vh 2vh;
+    gap: 2vh;
+    font-size: 10px;
+}
+.imgsocial{
+    height: 2vh;
+}
+   
+.tabs{
+    padding: 1vh;
+   font-size: 5px; 
+   gap: 3vh; 
+}
+.tabs img{
+    width: 70px;
+}
+.carousel {
+    width: 20vh;
+    height: 20vh;
+    
+  }
+  .sub{
+    padding: 1vh;
+    gap: 3vh;
+    font-size: 10px;
+  }
+ 
+
+  .imgicon{
+    height: 5vh;
+  }
+ .imgsub{
+    height: 20vh;
+ }
+  
+  
+ .standard{
+    padding: 1vh;
+    gap: 3vh;
+   font-size: 10px;
+ }
+ .whyIcon{
+   font-size: 10px;
+    padding: 1vh;
+}
+.options{
+    font-size: 10px;
+}
+.targetas {
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.num{
+    font-size: 30px;
+}
+.what {
+    padding: 0%;
+    font-size: 8px;
+}
+.buble{
+    width: 15vh;
+    height: 30vh;
+}
+
+.conctact{ 
+    padding: 2vh;
+
+}
+.conct{
+    padding: 2vh;
+    gap: 3vh;
+}
+.line5{
+    width: 25vh;
+}
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .banner{
+        padding: 0%;
+       }
+       .btn-banner{
+        margin-top: 2%;
+        padding: 2%;
+       }
+       
+        header{
+            justify-content: center;
+            align-items: center;}
+    .Textheader img{
+        width: 10vh;
+    }
+    .Textheader {
+    font-size: 10px;}
+       .form{
+        font-size: 5px;
+       }
+       .social{
+        padding: 0vh 2vh;
+        gap: 2vh;
+        font-size: 10px;
+    }
+    .imgsocial{
+        height: 2vh;
+    }
+       
+    .tabs{
+        padding: 1vh;
+       font-size: 5px; 
+       gap: 3vh; 
+    }
+    .tabs img{
+        width: 70px;
+    }
+    .carousel {
+        width: 20vh;
+        height: 20vh;
+        
+      }
+      .sub{
+        padding: 1vh;
+        gap: 3vh;
+        font-size: 10px;
+      }
+     
+    
+      .imgicon{
+        height: 5vh;
+      }
+     .imgsub{
+        height: 20vh;
+     }
+      
+      
+     .standard{
+        padding: 1vh;
+        gap: 3vh;
+       font-size: 10px;
+     }
+     .whyIcon{
+       font-size: 10px;
+        padding: 1vh;
+    }
+    .options{
+        font-size: 10px;
+    }
+    .targetas {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .num{
+        font-size: 30px;
+    }
+    .what {
+        padding: 0%;
+        font-size: 8px;
+    }
+    .buble{
+        width: 15vh;
+        height: 16vh;
+    }
+    .person{
+        gap: 2vh;
+    }
+    
+    .conctact{ 
+        padding: 2vh;
+    
+    }
+    .conct{
+        padding: 2vh;
+        gap: 3vh;
+    }
+    .line5{
+        width: 23vh;
+    }
+    }
+
+
+
+@media (min-width: 769px) and (max-width: 920px) {
+    .banner{
+        padding: 0%;
+       }
+       .btn-banner{
+        
+       }
+       
+        header{
+            justify-content: center;
+            align-items: center;}
+    .Textheader img{
+        width: 10vh;
+    }
+    .Textheader {
+    font-size: 15px;}
+       .form{
+        font-size: 10px;
+       }
+       .social{
+        padding: 0vh 2vh;
+        gap: 2vh;
+        font-size: 15px;
+    }
+    .imgsocial{
+        height: 3vh;
+    }
+       
+    .tabs{
+        padding: 1vh;
+       gap: 3vh; 
+       font-size: 15px;
+    }
+    .tabs img{
+        width: 200px;
+    }
+    .carousel {
+        width: 25vh;
+        height: 25vh;
+        
+      }
+      .sub{
+        padding: 1vh;
+        gap: 3vh;
+        font-size: 15px;
+      }
+     
+    
+      .imgicon{
+        height: 5vh;
+      }
+     .imgsub{
+        height: 30vh;
+     }
+      
+      
+     .standard{
+        padding: 1vh;
+        gap: 3vh;
+       font-size: 15px;
+     }
+     .whyIcon{
+       font-size: 10px;
+        padding: 1vh;
+    }
+    .options{
+        font-size: 10px;
+    }
+    .targetas {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .num{
+        font-size: 40px;
+    }
+    .what {
+        padding: 0%;
+        font-size: 10px;
+    }
+    .buble{
+        width: 15vh;
+        height: 16vh;
+        
+    }
+    
+    .conctact{ 
+        padding: 2vh;
+    
+    }
+    .conct{
+        padding: 2vh;
+        gap: 5vh;
+    }
+    .line5{
+        width: 25vh;
+    }
+    }
+    
+
+
+@media (min-width: 921px) and (max-width: 1279px) {
+    .banner{
+        padding: 0%;
+       }
+     
+       .social{
+        padding: 0vh 2vh;
+        gap: 2vh;
+        font-size: 15px;
+    }
+    .imgsocial{
+        height: 3vh;
+    }
+       
+    .tabs{
+        padding: 1vh;
+       gap: 3vh; 
+       font-size: 15px;
+    }
+    .tabs img{
+        width: 200px;
+    }
+    .carousel {
+        width: 25vh;
+        height: 25vh;
+        
+      }
+      .sub{
+        padding: 1vh;
+        gap: 3vh;
+        font-size: 15px;
+      }
+     
+    
+      .imgicon{
+        height: 5vh;
+      }
+     .imgsub{
+        height: 30vh;
+     }
+      
+      
+     .standard{
+        padding: 1vh;
+        gap: 3vh;
+       font-size: 15px;
+     }
+     .whyIcon{
+       font-size: 10px;
+        padding: 1vh;
+    }
+    .options{
+        font-size: 10px;
+    }
+    .targetas {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .num{
+        font-size: 40px;
+    }
+    .what {
+        padding: 0%;
+        font-size: 10px;
+    }
+    .buble{
+        width: 15vh;
+        height: 16vh;
+        
+    }
+    
+    .conctact{ 
+        padding: 2vh;
+        align-items: center;
+    
+    }
+    .conct{
+        padding: 2vh;
+        gap: 5vh;
+    }
+    .line5{
+        width: 25vh;
+    }
+    }
+
+
+@media (min-width: 1280px) {
+    *{
+        padding: auto;
+    }
+    .options{
+        font-size: 10px;
+    }
+    .targetas {
+        align-items: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .num{
+        font-size: 40px;
+    }
+    .line5{
+        width: 25vh;
+    }
+}
+
+
